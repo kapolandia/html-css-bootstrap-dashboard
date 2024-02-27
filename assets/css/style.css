@@ -1,0 +1,66 @@
+img{
+    max-width: 100%;
+}
+
+body{
+    height: 100%;
+}
+
+main{
+    height: 100%-90px;
+}
+
+/* HEADER */
+header{
+    height: 90px;
+    box-shadow: 0px 0px 6px rgb(199, 199, 199);
+}
+
+.mobile-logo{
+    display: none;
+    max-width: 50px;
+}
+
+.ms-search{
+    background-color: rgb(233, 233, 233);
+    margin: 0px 20px;
+}
+
+.ms-search-bar{
+    background-color: rgb(233, 233, 233);
+    margin: 0px 20px;
+    outline: none;
+    border: none;
+    flex-grow: 1;
+}
+
+.ms-alarm{
+    color: rgb(255, 213, 0);
+}
+
+/* MEADIA */
+@media screen and (max-width:1200px){
+    
+}
+
+@media screen and (max-width:992px){
+    .ms-head-icon{
+        display: none;
+    }
+
+    .mobile-logo{
+        display: block;
+    }
+
+    .desktop-logo{
+        display: none;
+    }
+}
+
+@media screen and (max-width:768px){
+    
+}
+
+@media screen and (max-width:576px){
+    
+}
