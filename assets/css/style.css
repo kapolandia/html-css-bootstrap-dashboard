@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
 img{
     max-width: 100%;
 }
@@ -38,6 +44,44 @@ header{
     color: rgb(255, 213, 0);
 }
 
+/* Control panel on the left */
+
+.ms-control{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    width: 170px;
+    height: calc(100vh - 90px);
+    background-color: #051E34;
+    background-image: url(../img/sidebar-bg.png);
+    color: #fff;
+    font-size: 18px;
+    padding: 40px 30px ;
+}
+
+.ms-control-cont {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.ms-control-cont i{
+    margin-right:  30px;
+    max-width: 10px;
+}
+
+.ms-control-cont p{
+    margin: 0;
+}
+
+.ms-control-cont:last-of-type{
+    flex-grow: 1;
+    align-items: flex-end;
+}
+
 /* MEADIA */
 @media screen and (max-width:1200px){
     
@@ -53,6 +97,27 @@ header{
     }
 
     .desktop-logo{
+        display: none;
+    }
+
+    .ms-control{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90px;
+        height: calc(100vh - 90px);
+        background-color: #051E34;
+        background-image: url(../img/sidebar-bg.png);
+        color: #fff;
+        font-size: 22px;
+        padding: 40px 30px ;
+    }
+    
+    .ms-control-cont {
+        margin-top: 10px;
+    }
+    
+    .ms-control-cont p{
         display: none;
     }
 }
