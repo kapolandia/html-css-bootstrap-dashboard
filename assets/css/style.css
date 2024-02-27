@@ -78,8 +78,10 @@ header{
 }
 
 .ms-control-cont:last-of-type{
+    display: flex;
+    flex-direction: row;
     flex-grow: 1;
-    align-items: flex-end;
+    align-items: end;
 }
 
 /* MEADIA */
