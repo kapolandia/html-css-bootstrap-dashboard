@@ -20,6 +20,7 @@ main{
 header{
     height: 90px;
     box-shadow: 0px 0px 6px rgb(199, 199, 199);
+    background-color: #fff;
 }
 
 .mobile-logo{
@@ -84,9 +85,39 @@ header{
     align-items: end;
 }
 
+
+/* Plan */
+
+#plan{
+    background-color: #1B72E8;
+    color: #fff;
+    margin: 0;
+}
+
+.ms-pills{
+    background-color: #165BBA;
+}
+
+.info-plus{
+    display: none;
+}
+
+/* Tabella */
+
+.table td:first-child {
+    width: 50%;
+}
+
+.table img{
+    clip-path: circle();
+    max-width: 30px;
+    display: inline;
+    margin-right: 0.5rem;
+}
+
 /* MEADIA */
 @media screen and (max-width:1200px){
-    
+
 }
 
 @media screen and (max-width:992px){
@@ -121,6 +152,14 @@ header{
     
     .ms-control-cont p{
         display: none;
+    }
+
+    .info-md-hide{
+        display: none;
+    }
+
+    .info-plus{
+        display: inline;
     }
 }
 
